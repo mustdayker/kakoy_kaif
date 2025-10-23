@@ -4,4 +4,4 @@
 - Клонировать репозиторий `kakoy_kaif` в папку `C:\GitHub\kakoy_kaif`
 
 # 2. Установить Docker
-- Инструкция []()
+- Инструкция [**install_docker.md**](install_docker.md)
