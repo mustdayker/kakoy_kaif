@@ -44,7 +44,7 @@ docker compose exec superset superset init
 
 ### Папки
 
-- **Ноутбуки:** `./jupyter/notebooks/`
+- **Ноутбуки:** `./jupyter/`
 - **База Superset:** `./superset/data/`
 - Остальное служебное, трогать не надо
 
