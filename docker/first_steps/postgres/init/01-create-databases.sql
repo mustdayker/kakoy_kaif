@@ -1,0 +1,5 @@
+CREATE DATABASE learn_base;
+GRANT ALL PRIVILEGES ON DATABASE learn_base TO admin;
+
+CREATE DATABASE kakoy_kaif;
+GRANT ALL PRIVILEGES ON DATABASE kakoy_kaif TO admin;

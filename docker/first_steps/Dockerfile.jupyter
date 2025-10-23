@@ -1,0 +1,20 @@
+FROM jupyter/datascience-notebook:latest
+
+USER root
+
+USER $NB_UID
+
+# Установка Python библиотек
+RUN pip install --no-cache-dir \
+    pandas \
+    numpy \
+    matplotlib \
+    seaborn \
+    scikit-learn \
+    plotly \
+    requests \
+    sqlalchemy \
+    psycopg2-binary \
+    beautifulsoup4 \
+    lxml
+
