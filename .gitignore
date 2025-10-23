@@ -1,3 +1,8 @@
 .idea/
 .ipynb_checkpoints/
 .datasets/
+.ipython/
+.jupyter/
+.local/
+.npm/
+datasets/

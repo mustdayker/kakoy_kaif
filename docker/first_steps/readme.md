@@ -5,6 +5,28 @@
 - **`Jupyterlab`** (Код отладка)
 - **`Superset`** (Создание дашбордов)
 
+# Управление стендом
+
+- **Jupyter:** http://localhost:8888 Токен: `dataengineer`
+- **Superset:** http://localhost:8088 Логин: `admin` Пароль: `admin`
+
+### PostgreSQL (через `DBeaver`)
+Подключение:
+- Хост: `localhost`
+- Порт: `5432`
+- База: `learn_base` или `kakoy_kaif`
+- Пользователь: `admin`
+- Пароль: `admin`
+
+### Папки
+
+- **Ноутбуки:** `./jupyter/`
+- Остальное служебное, трогать не надо
+
+
+
+--------
+
 # Как развернуть проект:
 - Запустить `Docker`
 - Открыть `PowerShell`
@@ -28,25 +50,6 @@ docker compose exec superset superset init
 ```
 
 --------------
-
-# Управление стендом
-
-- **Jupyter:** http://localhost:8888 Токен: `dataengineer`
-- **Superset:** http://localhost:8088 Логин: `admin` Пароль: `admin`
-
-### PostgreSQL (через `DBeaver`)
-Подключение:
-- Хост: `localhost`
-- Порт: `5432`
-- База: `learn_base` или `kakoy_kaif`
-- Пользователь: `admin`
-- Пароль: `admin`
-
-### Папки
-
-- **Ноутбуки:** `./jupyter/`
-- **База Superset:** `./superset/data/`
-- Остальное служебное, трогать не надо
 
 ## Скрипты для Jupyterlab
 
