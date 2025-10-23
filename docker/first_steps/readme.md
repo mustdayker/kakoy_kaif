@@ -10,9 +10,10 @@
 - **Jupyter:** http://localhost:8888 Токен: `dataengineer`
 - **Superset:** http://localhost:8088 Логин: `admin` Пароль: `admin`
 
-### PostgreSQL (через `DBeaver`)
+### PostgreSQL
 Подключение:
-- Хост: `localhost`
+- Хост: `localhost` (При подключении через `DBeaver`)
+- Хост: `postgres-db` (При подключении из контейнеров, например [**Jupyter**](http://localhost:8888) или [**Superset**](http://localhost:8088))
 - Порт: `5432`
 - База: `learn_base` или `kakoy_kaif`
 - Пользователь: `admin`
