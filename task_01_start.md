@@ -1,7 +1,7 @@
 # 1. Подготовка софта
 - Создать в корне диска папку: `C:\GitHub` 
 - Установить `GitHub Desktop` (путь по умолчанию)
-- Клонировать репозиторий `kakoy_kaif` в папку `C:\GitHub\kakoy_kaif`
+- Клонировать репозиторий [`kakoy_kaif`](https://github.com/mustdayker/kakoy_kaif) в папку `C:\GitHub\kakoy_kaif`
 
 # 2. Установить Docker
 - Инструкция [**install_docker.md**](install_docker.md)
