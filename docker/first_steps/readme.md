@@ -12,7 +12,7 @@
 
 ### PostgreSQL
 Подключение:
-- Хост: `localhost` (При подключении через `DBeaver`)
+- Хост: `localhost` (При подключении напрямую с компа, например `DBeaver` или `Jupyter` в системе)
 - Хост: `postgres-db` (При подключении из контейнеров, например [**Jupyter**](http://localhost:8888) или [**Superset**](http://localhost:8088))
 - Порт: `5432`
 - База: `learn_base` или `kakoy_kaif`
