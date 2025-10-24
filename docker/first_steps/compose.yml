@@ -30,7 +30,8 @@ services:
       CHOWN_HOME: "yes"
       CHOWN_HOME_OPTS: "-R"
     volumes:
-      - ./jupyter:/home/jovyan
+      - ./jupyter/work:/home/jovyan/work
+      - ./jupyter/work/datasets:/home/jovyan/work/datasets
     ports:
       - "8888:8888"
     networks:
