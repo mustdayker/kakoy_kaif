@@ -1,5 +1,5 @@
 # Подготовка софта
-## GitHub
+## 1. GitHub
 - Создать в корне диска папку: `C:\GitHub` 
 - Установить `GitHub Desktop` (путь по умолчанию)
 - Клонировать репозиторий [`kakoy_kaif`](https://github.com/mustdayker/kakoy_kaif) в папку `C:\GitHub\kakoy_kaif`
