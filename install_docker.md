@@ -41,7 +41,7 @@ wsl --update
 
 https://www.docker.com/products/docker-desktop/
 
-В BIOS включить пункт `Enable hardware virtualization`
+**(ПРОПУСТИТЬ ЭТОТ ПУНКТ)** В BIOS включить пункт `Enable hardware virtualization` (вернуться к нему если без этого не заработает)
 
 ![](data/screen_008.png)
 
