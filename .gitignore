@@ -6,3 +6,5 @@
 .local/
 .npm/
 datasets/
+
+.DS_Store
